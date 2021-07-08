@@ -1,3 +1,5 @@
 module.exports = {
-  publicPath: '/honey-badger/',
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/honey-badgers/'
+    : '/',
 };
