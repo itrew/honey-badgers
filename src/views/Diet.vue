@@ -1,7 +1,7 @@
 <template>
   <div class="text-center tracking-widest uppercase font-bold text-black">
     <div class="flex justify-center items-center mt-8">
-        <img class="row-start-2" src="http://bioweb.uwlax.edu/bio203/s2014/scheidt_mich/BNP-87[1].jpg">
+        <img class="row-start-2 w-56" src="https://africageographic.com/wp-content/uploads/2019/03/c-Willem-Kruger-3-LRG.jpg">
       </div>
     <h3 class="text-l mt-8 mx-40 text-black">What's on the menu?</h3>
     <p class="text-sm normal-case mt-8 mx-40 text-black">
