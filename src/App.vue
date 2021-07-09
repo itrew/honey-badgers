@@ -1,9 +1,16 @@
 <template>
   <div id="app">
-    <div id="nav" class="text-2xl">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/image-gallery">Image Gallery</router-link> |
-      <router-link to="/habitat-distribution">Distribution &amp; Habitat</router-link>
+    <div id="nav" class="text-2xl flex justify-center items-baseline">
+      <a href="https://the-scrum-moose.yolasite.com/" target="_blank">
+        <img src="./assets/zoo-logo.png" class="mx-3 h-28">
+      </a>
+      <router-link class="mx-2" to="/">Honey Badger Intro</router-link> |
+      <router-link class="mx-2" to="/image-gallery">Image Gallery</router-link> |
+      <router-link class="mx-2" to="/habitat-distribution">
+        Distribution &amp; Habitat
+      </router-link> |
+      <router-link class="mx-2" to="/behavior">Behavior</router-link> |
+      <router-link class="mx-2" to="/diet">Diet</router-link>
     </div>
     <router-view/>
   </div>

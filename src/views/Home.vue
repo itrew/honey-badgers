@@ -1,7 +1,7 @@
 <template>
   <div class="w-full relative grid grid-cols-1">
-    <div class="text-center tracking-widest uppercase font-bold text-white">
-      <h1 class="font-header font-thin text-5xl mt-8" style="color: yellow">Honey Badgers</h1>
+    <div class="text-center tracking-widest uppercase font-bold text-black">
+      <h1 class="font-header font-thin text-5xl mt-8" style="color: black">Honey Badgers</h1>
       <p class="text-xl mt-8">
         #Fearless, #Thick-skinned, #Resourcefull, #Unwaivering, #Ferocious.
       </p>

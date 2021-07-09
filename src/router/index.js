@@ -3,6 +3,8 @@ import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import ImageGallery from '../views/ImageGallery.vue';
 import Habitat from '../views/Habitat.vue';
+import Behavior from '../views/Behavior.vue';
+import Diet from '../views/Diet.vue';
 
 Vue.use(VueRouter);
 
@@ -21,6 +23,16 @@ const routes = [
     path: '/habitat-distribution',
     name: 'Habitat & Distribution',
     component: Habitat,
+  },
+  {
+    path: '/behavior',
+    name: 'Behavior',
+    component: Behavior,
+  },
+  {
+    path: '/diet',
+    name: 'Diet',
+    component: Diet,
   },
 ];
 
