@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <!-- <div id="nav">
+    <div id="nav" class="text-2xl">
       <router-link to="/">Home</router-link> |
-    </div> -->
+      <router-link to="/image-gallery">Image Gallery</router-link> |
+      <router-link to="/habitat-distribution">Distribution &amp; Habitat</router-link>
+    </div>
     <router-view/>
   </div>
 </template>
@@ -22,10 +24,10 @@
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #42b983;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  text-decoration: underline;
 }
 </style>

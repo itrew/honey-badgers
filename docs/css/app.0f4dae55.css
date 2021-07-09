@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap);#app{font-family:Avenir,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-align:center;color:#2c3e50}#nav{padding:30px}#nav a{font-weight:700;color:#2c3e50}#nav a.router-link-exact-active{color:#42b983}
+@import url(https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap);#app{font-family:Avenir,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-align:center;color:#2c3e50}#nav{padding:30px}#nav a{font-weight:700;color:#42b983}#nav a.router-link-exact-active{text-decoration:underline}.carousel-caption p{color:#fff!important;text-shadow:-1px 0 #000,0 1px #000,1px 0 #000,0 -1px #000}
 
 /*! tailwindcss v2.2.4 | MIT License | https://tailwindcss.com */
 
